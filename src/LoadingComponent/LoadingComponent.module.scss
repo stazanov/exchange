@@ -1,0 +1,14 @@
+.myAnimation {
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
